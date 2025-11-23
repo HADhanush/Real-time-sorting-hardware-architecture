@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/async_fifo.v" \
+"../../../../../Random_num_generator/Random_num_generator.srcs/sources_1/new/random_gen.v" \
+"../../../../Testing_folder.srcs/sources_1/new/top_random_fifo.v" \
+"../../../../Testing_folder.srcs/sim_1/new/tb_top_random_fifo.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
