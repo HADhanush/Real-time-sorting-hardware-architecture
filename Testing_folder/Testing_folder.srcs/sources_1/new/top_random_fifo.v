@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module top_random_fifo (
     input  wire        wr_clk,
     input  wire        rd_clk,
@@ -6,7 +8,7 @@ module top_random_fifo (
     output wire [63:0] fifo_dout,
     output wire        fifo_empty,
     output wire        fifo_full,
-    output wire        drop      // high for one wr_clk cycle when rnd generated but FIFO full
+    output wire        drop
 );
 
     wire [63:0] rnd64;
@@ -48,7 +50,7 @@ module top_random_fifo (
 
     async_fifo #(
         .DATA_WIDTH(64),
-        .ADDR_WIDTH(8)
+        .ADDR_WIDTH(3)
     ) u_fifo (
         .wr_clk(wr_clk),
         .rd_clk(rd_clk),

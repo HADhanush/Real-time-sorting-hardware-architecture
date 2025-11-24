@@ -2,7 +2,7 @@
 
 module async_fifo #(
     parameter DATA_WIDTH = 64,
-    parameter ADDR_WIDTH = 8
+    parameter ADDR_WIDTH = 3
 )(
     input  wire                   wr_clk,
     input  wire                   rd_clk,
@@ -16,7 +16,6 @@ module async_fifo #(
 );
 
     localparam PTR_WIDTH = ADDR_WIDTH + 1;
-
     reg [DATA_WIDTH-1:0] mem [0:(1<<ADDR_WIDTH)-1];
 
     reg [PTR_WIDTH-1:0] wr_ptr_bin, wr_ptr_bin_next;

@@ -2,3 +2,6 @@ Running: xsim.dir/tb_top_random_fifo_behav/xsimk.exe -simmode gui -wdb tb_top_ra
 Design successfully loaded
 Design Loading Memory Usage: 29700 KB (Peak: 29700 KB)
 Design Loading CPU Usage: 812 ms
+Simulation completed
+Simulation Memory Usage: 30864 KB (Peak: 30864 KB)
+Simulation CPU Usage: 953 ms
