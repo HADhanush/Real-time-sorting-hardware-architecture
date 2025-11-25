@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Nov 24 14:57:41 2025
+# Process ID         : 20736
+# Current directory  : C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9328 C:\Users\dhanu\Desktop\Major_project\Final_codes\Testing_folder\Testing_folder.xpr
+# Log file           : C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/vivado.log
+# Journal file       : C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder\vivado.jou
+# Running On         : Dhanush
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13420H
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16745 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17819 MB
+# Available Virtual  : 8357 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top_rand_fifo_sort.tcl
+run 2000ns
+restart
+run 2000ns
+run 2000ns
+current_wave_config {Untitled 1}
+add_wave {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/clk}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/rst}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/data_valid}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/data_in}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/sorted}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/sdone}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/arr}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/key}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/i}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/j}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/state}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/N}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/WIDTH}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/IDLE}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/LOAD}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/PICK}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/COMPARE}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/INSERT}} {{/tb_top_rand_fifo_sort/uut/u_insertion_sort/FINISH}} 
+restart
+run 20000 ns
+run 2000 ns
+current_wave_config {Untitled 1}
+add_wave {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rdata}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wfull}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rempty}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wdata}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/winc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wclk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wrst_n}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rinc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rclk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rrst_n}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/waddr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/raddr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wq2_rptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rq2_wptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/DSIZE}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/ASIZE}} 
+restart
+run 20000 ns
+close_sim
+launch_simulation
+source tb_top_rand_fifo_sort.tcl
+run 20000 ns
+run 20000 ns
+current_wave_config {Untitled 2}
+add_wave {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rdata}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wfull}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rempty}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wdata}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/winc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wclk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wrst_n}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rinc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rclk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rrst_n}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/waddr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/raddr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wq2_rptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rq2_wptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/DSIZE}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/ASIZE}} 
+restart
+run 20000 ns
+close_sim
+launch_simulation
+source tb_top_rand_fifo_sort.tcl
+run 20000 ns
+current_wave_config {Untitled 3}
+add_wave {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rdata}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wfull}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rempty}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wdata}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/winc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wclk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wrst_n}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rinc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rclk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rrst_n}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/waddr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/raddr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/wq2_rptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/rq2_wptr}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/DSIZE}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod/ASIZE}} 
+restart
+run 20000 ns
+close_sim
+launch_simulation
+source tb_top_rand_fifo_sort.tcl
+restart
+run 2000ns
+close_sim
+launch_simulation
+source tb_top_rand_fifo_sort.tcl
+run 20 ns
+current_wave_config {Untitled 5}
+add_wave {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/asyncfifomod}} 
+run 20000 ns
+current_wave_config {Untitled 5}
+add_wave {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/wr_clk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/rd_clk}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/rst}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/rd_en}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/fifo_dout}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/fifo_empty}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/fifo_full}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/drop}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/rnd64}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/valid64}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/din}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/winc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/rinc}} {{/tb_top_rand_fifo_sort/uut/u_top_random_fifo/drop_r}} 
+restart
+run 20000 ns
+run 200000 ns
+run 200000 ns
+run 20000000 ns
+close_sim
+launch_simulation

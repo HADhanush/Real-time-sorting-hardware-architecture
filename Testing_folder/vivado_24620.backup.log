@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Nov 24 14:54:28 2025
+# Process ID         : 24620
+# Current directory  : C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18308 C:\Users\dhanu\Desktop\Major_project\Final_codes\Testing_folder\Testing_folder.xpr
+# Log file           : C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/vivado.log
+# Journal file       : C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder\vivado.jou
+# Running On         : Dhanush
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13420H
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16745 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17819 MB
+# Available Virtual  : 8354 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_random_fifo'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_random_fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_random_fifo_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/FIFO_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/async_fifo_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_fifo_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Sorting_algorithms/Random_number/Random_number.srcs/sources_1/new/lfsr_random_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr_random_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/rptr_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rptr_empty
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.srcs/sources_1/new/top_random_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_random_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/two_ff_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_ff_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/wptr_full.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wptr_full
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.srcs/sim_1/new/tb_top_random_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_random_fifo
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.250 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_random_fifo'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_random_fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_random_fifo_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/FIFO_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/async_fifo_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_fifo_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Sorting_algorithms/Random_number/Random_number.srcs/sources_1/new/lfsr_random_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr_random_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/rptr_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rptr_empty
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.srcs/sources_1/new/top_random_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_random_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/two_ff_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_ff_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/wptr_full.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wptr_full
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.srcs/sim_1/new/tb_top_random_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_random_fifo
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_random_fifo_behav xil_defaultlib.tb_top_random_fifo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_random_fifo_behav xil_defaultlib.tb_top_random_fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/async_fifo_1.v" Line 3. Module async_fifo_1(DSIZE=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/FIFO_memory.v" Line 2. Module FIFO_memory(DATA_SIZE=64,ADDR_SIZE=256) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/async_fifo_1.v" Line 3. Module async_fifo_1(DSIZE=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dhanu/Desktop/Major_project/Final_codes/async_fifo_1/async_fifo_1.srcs/sources_1/new/FIFO_memory.v" Line 2. Module FIFO_memory(DATA_SIZE=64,ADDR_SIZE=256) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lfsr_random_gen
+Compiling module xil_defaultlib.two_ff_sync(SIZE=257)
+Compiling module xil_defaultlib.FIFO_memory(DATA_SIZE=64,ADDR_SI...
+Compiling module xil_defaultlib.rptr_empty(ADDR_SIZE=256)
+Compiling module xil_defaultlib.wptr_full(ADDR_SIZE=256)
+Compiling module xil_defaultlib.async_fifo_1(DSIZE=64)
+Compiling module xil_defaultlib.top_random_fifo
+Compiling module xil_defaultlib.tb_top_random_fifo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_random_fifo_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_random_fifo_behav -key {Behavioral:sim_1:Functional:tb_top_random_fifo} -tclbatch {tb_top_random_fifo.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_top_random_fifo.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+T=325000  READ: bbddee773b9d4ea7
+T=335000  READ: bbddee773b9d4ea7
+T=465000  READ: xxxxxxxxxxxxxxxx
+T=475000  READ: xxxxxxxxxxxxxxxx
+T=605000  READ: xxxxxxxxxxxxxxxx
+T=615000  READ: xxxxxxxxxxxxxxxx
+T=745000  READ: xxxxxxxxxxxxxxxx
+T=755000  READ: xxxxxxxxxxxxxxxx
+T=885000  READ: xxxxxxxxxxxxxxxx
+T=895000  READ: xxxxxxxxxxxxxxxx
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1247.594 ; gain = 16.375
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_random_fifo_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:23 . Memory (MB): peak = 1247.594 ; gain = 18.344
+set_property top tb_top_rand_fifo_sort [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+set_property is_enabled true [get_files  C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.srcs/sources_1/new/top_rand_fifo_sort.v]
+update_compile_order -fileset sources_1
+set_property top top_rand_fifo_sort [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_rand_fifo_sort'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/dhanu/Desktop/Major_project/Final_codes/Testing_folder/Testing_folder.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 24 14:57:12 2025...

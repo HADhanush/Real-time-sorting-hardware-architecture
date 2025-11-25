@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Jan 13 11:11:10 2025
+# Process ID         : 17388
+# Current directory  : C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2784 C:\Users\aniru\OneDrive\Desktop\Verilog HDL\async_fifo_1\async_fifo_1.xpr
+# Log file           : C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1/vivado.log
+# Journal file       : C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1\vivado.jou
+# Running On         : LAPTOP-DAM1RJPD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 8242 MB
+# Swap memory        : 6442 MB
+# Total Virtual      : 14684 MB
+# Available Virtual  : 5578 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1/async_fifo_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source FIFO_tb.tcl
+save_wave_config {C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1/FIFO_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1/FIFO_tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/aniru/OneDrive/Desktop/Verilog HDL/async_fifo_1/FIFO_tb_behav.wcfg}} [get_filesets sim_1]
+close_sim

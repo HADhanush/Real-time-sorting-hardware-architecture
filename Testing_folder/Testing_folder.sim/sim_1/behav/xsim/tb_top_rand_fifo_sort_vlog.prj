@@ -1,10 +1,14 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../../Asynchronous FIFO/Asynchronous FIFO.srcs/sources_1/new/async_fifo.v" \
+"../../../../../async_fifo_1/async_fifo_1.srcs/sources_1/new/FIFO_memory.v" \
+"../../../../../async_fifo_1/async_fifo_1.srcs/sources_1/new/async_fifo_1.v" \
 "../../../../../Sorting_modules/Insertion_Sort/Insertion_Sort.srcs/sources_1/new/insertion_sort.v" \
-"../../../../../Random_num_generator/Random_num_generator.srcs/sources_1/new/random_gen.v" \
+"../../../../../../Sorting_algorithms/Random_number/Random_number.srcs/sources_1/new/lfsr_random_gen.v" \
+"../../../../../async_fifo_1/async_fifo_1.srcs/sources_1/new/rptr_sync.v" \
 "../../../../Testing_folder.srcs/sources_1/new/top_rand_fifo_sort.v" \
 "../../../../Testing_folder.srcs/sources_1/new/top_random_fifo.v" \
+"../../../../../async_fifo_1/async_fifo_1.srcs/sources_1/new/two_ff_sync.v" \
+"../../../../../async_fifo_1/async_fifo_1.srcs/sources_1/new/wptr_full.v" \
 "../../../../Testing_folder.srcs/sim_1/new/tb_top_rand_fifo_sort.v" \
 
 # compile glbl module
