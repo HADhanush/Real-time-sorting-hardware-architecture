@@ -31,11 +31,17 @@ module top_random_fifo (
     // RANDOM GENERATOR (write clock domain, active-low reset)
     // valid64 = "this 64-bit word is ready" → use as FIFO wr_en
     // ------------------------------------------------------------
-    lfsr_random_gen u_random (
-        .clk        (wr_clk),
-        .rst_n      (wrst_n),      // use write-domain reset for RNG
-        .random_out (rnd64),
-        .done       (valid64)      // acts as FIFO wr_en
+//    lfsr_random_gen u_random (
+//        .clk        (wr_clk),
+//        .rst_n      (wrst_n),      // use write-domain reset for RNG
+//        .random_out (rnd64),
+//        .done       (valid64)      // acts as FIFO wr_en
+//    );
+    random_gen u_random_diff_freq(
+        .clk    (wr_clk),
+        .rst    (wrst_n),
+        .rnd64  (rnd64),
+        .valid64(valid64)
     );
 
     assign din = rnd64;

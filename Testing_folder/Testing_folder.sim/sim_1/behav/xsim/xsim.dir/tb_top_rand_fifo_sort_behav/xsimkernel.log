@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_top_rand_fifo_sort_behav/xsimk.exe -simmode gui -wdb tb_top_rand_fifo_sort_behav.wdb -simrunnum 0 -socket 56506
+Running: xsim.dir/tb_top_rand_fifo_sort_behav/xsimk.exe -simmode gui -wdb tb_top_rand_fifo_sort_behav.wdb -simrunnum 0 -socket 57748
 Design successfully loaded
 Design Loading Memory Usage: 28796 KB (Peak: 28796 KB)
-Design Loading CPU Usage: 765 ms
+Design Loading CPU Usage: 1093 ms
 Simulation completed
-Simulation Memory Usage: 30012 KB (Peak: 30012 KB)
-Simulation CPU Usage: 890 ms
+Simulation Memory Usage: 37812 KB (Peak: 37812 KB)
+Simulation CPU Usage: 5952 ms

@@ -20,8 +20,8 @@ module tb_top_rand_fifo_sort();
     );
 
     // clocks
-    always #5 wr_clk = ~wr_clk;
-    always #7 rd_clk = ~rd_clk;
+    always #21 wr_clk = ~wr_clk;
+    always #5 rd_clk = ~rd_clk;
 
     initial begin
         $dumpfile("tb_top_rand_fifo_sort.vcd");
